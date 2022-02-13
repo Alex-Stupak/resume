@@ -72,19 +72,22 @@ body {
   margin: 0 0 50px 0;
 }
 
-.my-projects-list,
-.my-knowledge-languages-list {
-  padding: 0 0 0 17px;
+.my-projects-name {
+  margin-left: 40px;
 }
 
-.my-projects-item,
-.my-language-item {
+.my-project-h {
+  margin: 5px 0;
+}
+
+.my-projects-item {
+  list-style-type: none;
   color: #000;
   font-weight: bold;
+  margin-top: 20px;
 }
 
-.my-projects-text,
-.my-language-text {
+.my-projects-text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -100,8 +103,7 @@ body {
   margin-left: 5px;
 }
 
-.my-projects-bracket,
-.my-language-bracket {
+.my-projects-bracket {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -158,19 +160,13 @@ body {
   margin: 45px 0 0 0;
 }
 
-.education-border {
-  border: 4mm ridge rgba(173, 165, 177, 0.6);
-}
-.education-border:last-child {
-  margin-top: 30px;
-}
 .my-education-name {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 .my-education-faculty {
@@ -217,6 +213,10 @@ body {
   margin: 45px 0 0 40px;
 }
 
+.my-language-section {
+  margin: 45px 0 0 40px;
+}
+
 .sidebar-photo {
   display: flex;
   justify-content: center;
@@ -233,21 +233,12 @@ body {
 
 /* contacts section */
 
-.contacts-section-type {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-  margin-right: 7px;
-}
-
 .contacts-section-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #fff;
 }
 
 /* skills list section */
