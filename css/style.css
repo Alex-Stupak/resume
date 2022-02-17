@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     max-width: 1200px;
+    position: absolute;
   }
 }
 /* main content section */
