@@ -26,12 +26,14 @@ body {
 }
 
 .main-content-title {
+  padding: 5px 10px;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   color: #000;
   margin-bottom: 10px;
+  background-color: rgb(255, 231, 212);
 }
 
 /* about me section */
